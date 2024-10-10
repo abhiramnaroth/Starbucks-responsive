@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--navbar section-->
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="image/logo-1.png" alt=""></a>
+
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#content1">Gift</a></li>
+                <li><a href="#content2">Order</a></li>
+                <li><a href="#content4">Pay</a></li>
+                <li><a href="#content3">Store</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" class="search-text" placeholder="search">
+
+            </div>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+        </header>
+    </section>
+    <section>
+        <div class="nav-panel">
+            <h3>Starbucks</h3>
+            <button>Know More</button>
+        </div>
+
+    </section>
+
+
+
+    <!--content-->
+    <content class="main-content">
+        <!--section content box 1-->
+        <section>
+            <div class="container" id="content1">
+                <div class="row">
+
+                    <div class="content-1">
+                        <div class="content-box-1">
+                            <div class="box-1-col-1">
+
+                            </div>
+                            <div class="box-1-col-2">
+                                <p style="font-size: 1rem;margin-top: 20px;">Introducing</p>
+                                <p style="font-size: 1.5rem;font-weight: 700;">Classic Menu</p>
+                                <p>A perfect duo of the classic iced or hot coffee inspired by and for India; with
+                                    all-day classic
+                                    sandwiches</p>
+                                <br>
+                                <br>
+                                <p style="font-size: .85em;margin-bottom: -5px;">Starting From</p>
+                                <p style="font-size: 1em;font-weight: 600;">₹150* onwards</p>
+                                <div class="box-1-col-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/section content box 1-->
+
+
+        <!--/content box section 2-->
+
+        <section>
+            <div class="container" id="content2">
+
+                <div class="content-box-2-head">
+                    <p>Handcrafted Curations</p>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image1">
+                                </div>
+                                <p>Bestseller</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image2">
+                                </div>
+                                <p>Drinks</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4  col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image3">
+                                </div>
+                                <p>Food</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4  col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image4">
+                                </div>
+                                <p>Merchandise</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4  col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image5">
+                                </div>
+                                <p>Coffee At Home</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4  col-lg-2">
+                        <div class="content-box-2-image-container">
+                            <div class="content-box-2-image-box">
+                                <div class="content-box-2-image6">
+                                </div>
+                                <p>Ready to Eat</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--/content box section 2-->
+
+        <!--content-box section 3-->
+
+        <section>
+            <div class="container pt-5" id="content3">
+
+                <div class="content-box-3-head row">
+                    <p>Barista Recommends</p>
+                </div>
+
+
+                <div class="content-box-3 row">
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="content-box-3-box-1">
+                            <div class="box-outer">
+                                <div class="content-box-3-box-1-img">
+                                </div>
+                                <div class="para">
+                                    <p>Cappucino</p>
+                                    <p style="font-size: 9px;color:gray;margin-top: 5px;">SHORT().</p>
+                                </div>
+                            </div>
+                            <div class="add-item">
+                                <p>₹ 283.50</p>
+                                <button>Add item</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="content-box-3-box-2">
+                            <div class="box-outer">
+                                <div class="content-box-3-box-2-img">
+                                </div>
+                                <div class="para">
+                                    <p>Signature Hot Chocolate</p>
+                                    <p style="font-size: 9px;color:gray;margin-top: 5px;">SHORT(237 mL) .284 kcal
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="add-item">
+                                <p>₹ 309.75</p>
+                                <button>Add item</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4 col-lg-6 ">
+                        <div class="content-box-3-box-3">
+                            <div class="box-outer">
+                                <div class="content-box-3-box-3-img">
+                                </div>
+                                <div class="para">
+                                    <p>Vanilla Milkshake</p>
+                                    <p style="font-size: 9px;color:gray;margin-top: 5px;">TALL(354 mL) .PER SERVE
+                                        (354ml) - 531
+                                        Kcal</p>
+                                </div>
+                            </div>
+                            <div class="add-item">
+                                <p>₹ 378.00</p>
+                                <button>Add item</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+        <!--/content-box section 3-->
+
+        <!--content-box section 4-->
+        <section>
+            <div class="container" id="content4" >
+                <div class="content-box-4">
+                <div class="content-box-4-head">
+                    <p>Learn more about the world of coffee!</p>
+                </div>
+                <div class="content-box-4-img-box">
+                    <div class="content-box-4-img">
+                        <h1>Art & Science Of Coffee Brewing</h1>
+                        <p>Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</p>
+                        <button>Learn More</button>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <!--/content-box section 4-->
+
+    </content>
+
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+
+            <div class="foot-nav-1 row p-5">
+
+                <div class="col-lg-2 col-md-4 col-12">
+                    <div class="foot-nav-1-col-1">
+                        <div class="logo-foot">
+                            <div class="logo-foot-img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-4">
+                    <div class="foot-nav-1-col-2">
+                        <ul>
+                            <p style="font-size: 18px;font-weight: 700;color: white;">About Us</p>
+                            <p>Our Heritage</p>
+                            <p>Coffeehouse</p>
+                            <p>Our Company</p>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-4">
+                    <div class="foot-nav-1-col-3">
+                        <ul>
+                            <p style="font-size: 18px;font-weight: 700;color: white;">Responsibility</p>
+                            <p>Diversity</p>
+                            <p>Community</p>
+                            <p>Ethical Sourcing</p>
+                            <p>Environmental Stewardship</p>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-4">
+                    <div class="foot-nav-1-col-4">
+                        <ul>
+                            <p style="font-size: 18px;font-weight: 700;color: white;">Quick Links</p>
+                            <p>Privacy Policy</p>
+                            <p>FAQs</p>
+                            <p>Starbucks India Mobile App Terms of Use</p>
+                            <p> Customer Service</p>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="foot-nav-1-col-5">
+                        <p style="font-size: 18px;font-weight: 700;color: white;">SOCIAL MEDIA</p>
+                        <div class="foot-icon">
+
+                            <a href="https://www.instagram.com/starbucks/"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="https://www.facebook.com/Starbucks/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/starbucks?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="foot-nav-1-col-6">
+                        <div class="app-store">
+                            <div class="app-store-img">
+                            </div>
+                        </div>
+                        <div class="play-store">
+                            <div class="play-store-img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="foot-nav-2 row">
+                <div class="foot-nav-2-content p-5">
+                    <ul>
+                        <a href="">Web Accessiblity </a>
+                        <a href="">Privacy Statement </a>
+                        <a href="">Terms of Use </a>
+                        <a href="">Contact Us </a>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

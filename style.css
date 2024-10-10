@@ -1,0 +1,560 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: border-box;
+}
+/**nav bar**/
+.nav-bar{
+    width: 100%;
+    height: 4.56rem;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+  
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-image: url(image/logo-1.png);
+    background-size: cover;
+}
+p{
+    color: #00000096;
+    font-size: 1rem;
+}
+.nav-home{
+    width: 6.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.nav-gift{
+    width: 6.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.nav-order{
+    width: 6.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.nav-pay{
+    width: 6.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.nav-store{
+    width: 6.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+/**nav search box**/
+.search-box{
+    height: 2.37em;
+    width: 16em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 24px;
+    border:none;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    margin-left: 17%;
+
+}
+.search-icon i{
+    font-size: 1.31rem;
+    color: #00000091;
+}
+.nav-person i{
+  font-size: 2rem;
+  font-weight: 400px;
+  margin: left 0.625rem;; 
+  color: gray; 
+  font-weight: 100;
+
+}
+/**nav-panel**/
+.nav-panel{
+    width: 100%;
+    height: 5rem;
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+h3{
+    color: #f9f9f9;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-left: 10%
+}
+.nav-panel button{
+    width: 6.25rem;
+    height: 2rem;
+    background-color:#1e3932;
+    margin-right: 10%;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+/**content section**/
+
+.content-1{
+    width: 100%;
+    height: 23.125rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.content-box-1{
+    width: 90%;
+    height:14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-image: url("image/box-1-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+.box-1-col-1{
+    height: 225px;
+    width: 10%;
+    background-image: url("image/sec-box-item.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-1-col-2{
+    height: 14rem;
+    width: 65%;
+    padding-left: 5px;
+    background-color: transparent;
+}
+.box-1-col-2 p{
+    color: white;
+   padding-top: 2px;
+   padding-left: 10px;
+   padding-left: 33px;
+   
+}
+.box-1-col-3{
+    height: 14rem;
+    width: 25%;
+    background-color: transparent;
+}
+.box-1-col-3 button{
+    width: 80%;
+    color:#000000a8;
+    background-color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 10%;
+    font-weight: 550;
+}
+/**content box 2**/
+.content-box-2-head{
+    width: 85%;
+    background-color: white;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.content-box-2-head p{
+    font-size: 24px;
+    font-weight: 650;
+    color: #1e3932;
+    padding-bottom: 25px
+}
+.content-box-2-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box-2-image-box{
+    width: 108px;
+    height: 158px;
+}
+.content-box-2-image1{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/Bestseller.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.content-box-2-image-box p{
+    font-size: 14px;
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.content-box-2-image2{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/Drinks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.content-box-2-image3{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/Food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.content-box-2-image4{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/Merchandise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.content-box-2-image5{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/CoffeeAtHome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.content-box-2-image6{
+    height:108px ;
+    width: 108px;
+    border-radius: 50%;
+    background-image: url("image/ReadyToEat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+/** contnt section box 3**/
+.content-box-3{
+    
+    background-color: #edebe6;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.content-box-3-head{
+    
+    background-color: #edebe6;
+    font-weight: 600;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+}
+.content-box-3-head p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e3932;
+    padding-left: 10%;
+}
+
+.content-box-3-box-1{
+    width: 350px;
+    height: 166px;
+    background-color: white;
+    border-radius: 10px;
+    margin: .5rem;
+}
+.box-outer{
+    display: flex;
+}
+.add-item{
+    display: flex;
+}
+.add-item p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000a6;
+    padding-left: 20px;
+}
+.add-item button{
+    background-color:#00754a;;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    width: 6.25rem;
+    height: 1.875rem;
+    margin-left: 9.37rem;
+
+}
+.content-box-3-box-2{
+    width: 350px;
+    height: 166px;
+    background-color: white;
+    border-radius: 10px;
+    margin: .5rem;
+}
+.content-box-3-box-3{
+    width: 350px;
+    height: 166px;
+    background-color: white;
+    border-radius: 10px;
+    margin: .5rem;
+}
+.content-box-3-box-1-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(image/cappuccino.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 20px;
+}
+.content-box-3-box-2-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(image/hot-chocolate.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 20px;
+}
+.content-box-3-box-3-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(image/vanila-milkshake.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+.para p{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    margin-left: 17px;
+    margin-top: 45px;
+}
+
+
+/** contnt box 4**/
+.content-box-4{
+    width: 100%;
+    height: 480px;
+    background-color: #edebe6;
+    margin-top: 45px;
+}
+.content-box-4-head{
+    width: 100%;
+    background-color: #edebe6;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 31px;
+}
+.content-box-4-head p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #1e3932;
+    padding-left: 120px;
+}
+.content-box-4-img-box{
+    width: 80%;
+    height: 23rem;
+    border-radius: 10px;
+    margin-left: 10%;
+    
+
+}
+.content-box-4-img{
+    background-image: url(image/coffee-making.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23rem;
+    width: 100%;
+    border-radius: 10px;
+}
+.content-box-4-img button{
+    width: 12.56rem;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    margin-left: 30px;
+    
+
+
+}
+.content-box-4-img h1{
+    margin-left: 30px;
+    padding-top:12vw ;
+    color: white;
+
+}
+.content-box-4-img p{
+    margin-left: 30px;
+    color: white;
+    padding-top: 18px;
+
+}
+
+/** footer **/
+
+.foot-nav-1{
+    width: 100%;
+    background-color: #0e382c;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+ .foot-nav-1-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+} 
+.foot-nav-1-col-2{
+    display: flex;
+    justify-content: center;
+}
+.foot-nav-1-col-3{
+    display: flex;
+    justify-content: center;
+}
+.foot-nav-1-col-4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-foot{
+    width: 62px;
+    height: 62px;
+}
+.logo-foot-img{
+    width: 62px;
+    height: 62px;
+    background-image: url(image/logo-1.png);
+}
+.foot-nav-1-col-1{
+    display: flex;
+    justify-content: center;
+}
+ul p{
+    color: #ffffff80;
+    padding-bottom: 22px;
+    font-size: 14px;
+    font-weight: 65;
+}
+.foot-icon{
+    width: 153px;
+    height: 40px;
+
+}
+.foot-icon i{
+    color: white;
+    font-size: 29px;
+    margin-right: 17px;
+    margin-top: 10px;
+
+} 
+/** foot col-6**/
+.play-store{
+    margin-top: 1rem;
+    width: 160px;
+    height: 42px;
+    background-color:white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 15px;
+    background-image: url(image/playstore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.play-store-img{
+    
+    width: 194px;
+    height: 62px;
+
+
+}
+.app-store{
+    margin-top: 1rem;
+    width: 160px;
+    height: 42px;
+    border-radius: 7px;
+    background-color:white;
+    background-image: url(image/appstore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-store-img{
+    width: 194px;
+    height: 62px;
+    border-radius: 7px;
+}
+/**foot nav 2**/
+.foot-nav-2{
+    width: 100%;
+    height: 80px;
+    background-color: #0e382c;
+    display: flex;
+    justify-content:center;
+
+}
+.foot-nav-2-content{
+    width: 80%;
+    height: 60px;
+    background-color:#0e382c;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-top: 1px solid white;
+
+}
+ul a{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    padding-right: 0.65rem;
+    padding-top:  0.65rem; 
+   
+}
